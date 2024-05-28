@@ -1,0 +1,46 @@
+.sr-seccion {
+  border: 1px solid rgba(192, 190, 190, 0.6);
+  padding: 0.5rem;
+}
+
+.carousel-item {
+  padding: 2%;
+}
+
+.carousel-item .card {
+  margin: auto;
+  height: 200px; /* Adjust this value as needed */
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: 150px; /* Adjust this value as needed */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.card-body {
+  height: calc(100% - 150px); /* Adjust based on image height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title, .card-text {
+  margin: 0px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.card-year{
+  font-style: italic;
+}
+
+.carouselEducation {
+  position: relative;
+}

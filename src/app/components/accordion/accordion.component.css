@@ -1,0 +1,8 @@
+.sr-seccion {
+  border: 1px solid rgba(192, 190, 190, 0.6);
+  padding: 0.5rem;
+}
+
+.accordion-body {
+  font-size: 0.9rem;
+}

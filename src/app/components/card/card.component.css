@@ -1,0 +1,27 @@
+a.linkedin{
+  color: #007BB6;
+  padding: 4px;
+}
+
+a.freeCodeCamp{
+  color: #3b3b4f;
+  padding: 4px;
+}
+
+a.whatsApp{
+  color: #075e54;
+  padding: 4px;
+}
+
+a.github{
+  color: #444444;
+  padding: 4px;
+}
+
+.sr-seccion {
+  border: 1px solid rgba(192, 190, 190, 0.6);
+}
+
+h1{
+  color: #0a0a23;
+}

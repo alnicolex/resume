@@ -1,0 +1,62 @@
+<h2 >Sumary </h2>
+<section class="sr-seccion col-md-10 offset-md-1 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+<p class="quote">
+  Software Engineer with more than a decade working on high-impact
+  technology projects for organizations, comprehensive experience in
+  software development, test automation, business analysis and people leadership.
+  Passionate about technology, I enjoy contributing to the achievement of company goals.
+</p>
+<p class="quote">
+  I have worked on various software development projects,
+  each requiring proficiency in different technologies.
+  This exposure has equipped me with a versatile skill set,
+  enabling me to adapt quickly to new tools and methodologies.
+</p>
+</section>
+<h2 >Skills </h2>
+<section class="sr-seccion col-md-10 offset-md-1 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+  <table class="table">
+    <thead class="table-light">
+      <tr>
+        <th scope="col">Frontend</th>
+        <th scope="col">Backend</th>
+        <th scope="col">Database</th>
+        <th scope="col">Analysis</th>
+        <th scope="col">Test</th>
+      </tr>
+    </thead>
+    <tbody>
+      <td>
+        <tr class="list-group-item" *ngFor="let fe of skillsFE">
+          <span>{{  fe.technology  }}</span>
+        </tr>
+      </td>
+      <td>
+        <tr class="list-group-item" *ngFor="let fe of skillsBE">
+          <span>{{  fe.technology  }}</span>
+        </tr>
+      </td>
+      <td>
+        <tr class="list-group-item" *ngFor="let be of skillsDB">
+          <span>{{  be.technology  }}</span>
+        </tr>
+      </td>
+      <td>
+        <tr class="list-group-item" *ngFor="let an of skillsAN">
+          <span>{{  an.technology  }}</span>
+        </tr>
+      </td>
+      <td>
+        <tr class="list-group-item" *ngFor="let te of skillsTE">
+          <span>{{  te.technology  }}</span>
+        </tr>
+      </td>
+    </tbody>
+  </table>
+</section>
+<h2 >Work Experience </h2>
+<app-accordion></app-accordion>
+<h2 >Education </h2>
+<app-carousel></app-carousel>
+
+
